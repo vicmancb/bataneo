@@ -1,0 +1,162 @@
+".container": {
+	backgroundColor: 'black'
+}
+
+".borde" : {
+	borderColor : '#F00',
+}
+
+"Label": {
+	color: "#FFF",
+}
+"#labelHeader": {
+
+}
+
+"#appName" : {
+	top: 0,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	height: Titanium.UI.FILL,
+	font : {
+		fontSize : 25,
+	},
+}
+"#appNameView" : {
+	height: 50,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+}
+".labelOptionsHeader" : {
+	right: 0,
+	font: {
+		fontSize: 40,
+	}
+}
+"#dots" : {
+	top: 0,
+	height: 20,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_BOTTOM,
+	font: {
+		fontSize: 40,
+	}
+}
+"#dotsView" : {
+	height: '60%',
+	height: 20,
+}
+".bataneoFont" : {
+	font : {
+		fontFamily : "bataneo",
+	}
+}
+
+"#header":{
+	top:0,
+	height:70,
+}
+
+"#userPicture" : {
+	width: '25%',
+}
+
+"#headerOptions" : {
+	width: '25%',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	right: 0,
+	paddingLeft: 20,
+	borderColor: "#F0F"
+
+}
+
+"#content":{
+	top:0,
+}
+
+"#itemHeaderInfo" : {
+	top : 0,
+	left : 0,
+	width : '70%',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	height: 75,
+}
+
+"#itemHeader" : {
+	backgroundColor: '#FFF',
+}
+
+"#itemTemplateListView" : {
+	borderRadius: 15,
+}
+"#itemTagIcon" : {
+	left: 0,
+}
+
+"#itemTag" : {
+	top : 0,
+	left: 0,
+}
+
+"#itemImageContainer" : {
+	left: 0,
+	width : '30%',
+	height: 75,
+}
+
+".itemImage" : {
+	width: 35,
+	height: 35,
+}
+
+"#itemTitle" : {
+	font : {
+		fontSize: 25,
+		fontWeight: "bold"
+	}
+
+}
+
+".marginLeft" : {
+	left: 10
+}
+
+"#itemDesc" : {
+	top : 0,
+}
+
+
+"#itemContent" : {
+}
+
+"#imageContent" : {
+	width: Titanium.UI.FILL,
+}
+"#likes" : {
+	width: '50%',
+}
+"#share" : {
+	width: '50%',
+}
+"#temp" : {
+	width:'90%',
+	left: '5%',
+	center:{
+		x: '50%',
+		y: '50%',
+	}
+}
+".left" : {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	left: 0,
+}
+".right" : {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	right: 0,
+}
+".colorBlack" : {
+	color: "#000",
+}
+
+"#itemOptions" : {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	backgroundColor: '#FFF',
+}
