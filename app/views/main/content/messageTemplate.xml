@@ -1,0 +1,38 @@
+<Alloy>
+   <View>
+      <ListView id="listItems" defaultItemTemplate="template">
+         <Templates>
+            <ItemTemplate name="template" id="itemTemplateListView" layout="vertical">
+               <View layout="horizontal" id="itemHeader">
+                  <View id="itemHeaderInfo" layout="vertical">
+                     <Label id="itemTitle" bindId="itemTitle" class="marginLeft colorBlack"/>
+                     <Label id="itemDesc" bindId="itemDesc" class="marginLeft colorBlack" text="Mana mana song"/>
+                     <View layout="horizontal" class="marginLeft">
+                        <Label id="itemTagIcon" bindId="itemTag" class="colorBlack bataneoFont" text="f"/>
+                        <Label id="itemTag" bindId="itemTagIcon" class="colorBlack" text="humor"/>
+                     </View>
+                  </View>
+                  <View id="itemImageContainer">
+                     <ImageView bindId="imagen" class="itemImage" image="http://www.jugarijugar.com/338-1069-thickbox/muneco-de-tela-mike-furnis.jpg"/>
+                  </View>
+               </View>
+               <View id="itemContent">
+                  <ImageView bindId="imagenContent" id="imageContent" image="http://vignette1.wikia.nocookie.net/muppet/images/7/74/BeakerHands.jpg/revision/latest?cb=20120626193657"/>
+               </View>
+               <View id="itemOptions" layout="horizontal">
+                  <View id="temp" layout="horizontal">
+                     <View  id="likes"><Label  class="left colorBlack marginLeft" text="B 34.7K"/></View>
+                     <View  id="share"><Label class="right colorBlack" text="Compartir"/></View>
+                  </View>
+               </View>
+            </ItemTemplate>
+         </Templates>
+         <ListSection>
+            <ListItem searchableText="prueba1" itemTitle:text="prueba1"/>
+            <ListItem searchableText="prueba2" itemTitle:text="prueba2"/>
+            <ListItem searchableText="prueba2" itemTitle:text="prueba3"/>
+            <ListItem searchableText="prueba2" itemTitle:text="prueba4"/>
+         </ListSection>
+      </ListView>
+   </View>
+</Alloy>

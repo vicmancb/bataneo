@@ -1,0 +1,57 @@
+
+"#header":{
+	top:0,
+	height:70,
+}
+
+"#userPicture" : {
+	width: '25%',
+}
+
+"#appName" : {
+	top: 0,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	height: Titanium.UI.FILL,
+	font : {
+		fontSize : 25,
+	},
+}
+"#appNameView" : {
+	height: 50,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+}
+
+"#labelHeader": {
+
+}
+
+"#dotsView" : {
+	height: '60%',
+	height: 20,
+}
+
+"#headerOptions" : {
+	width: '25%',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	right: 0,
+	paddingLeft: 20,
+	borderColor: "#F0F"
+
+}
+
+".labelOptionsHeader" : {
+	right: 0,
+	font: {
+		fontSize: 40,
+	}
+}
+
+"#dots" : {
+	top: 0,
+	height: 20,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_BOTTOM,
+	font: {
+		fontSize: 40,
+	}
+}

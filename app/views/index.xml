@@ -1,58 +1,9 @@
 <Alloy>
 	<Window class="container" layout="vertical">
-		<View id="header" layout="vertical">
-			<View id="appNameView" layout="horizontal">
-				<View id="userPicture">
-					<ImageView class="" image="https://i1.wp.com/i.vimeocdn.com/portrait/default-yellow_300x300.png?ssl=1"/>
-				</View>
-				<View id="appnameContainer" width="50%">
-					<Label id="appName" class="bataneoFont" text="BATANEO"/>
-				</View>
-				<View id="headerOptions" class="right" layout="horizontal">
-					<Label  class=" labelHeader labelOptionsHeader borde right" text="a"/>
-					<Label  class=" labelHeader labelOptionsHeader borde right" text="b"/>
-				</View>
-			</View>
-			<View id="dotsView">
-				<Label id="dots" class=" labelHeader" text="......"/>
-			</View>
-		</View>
+		<Require id="headerReq" src="main/header" type="view"/>
 		<ScrollableView>
 			<View id="content">
-				<ListView id="listItems" defaultItemTemplate="template">
-					<Templates>
-						<ItemTemplate name="template" id="itemTemplateListView" layout="vertical">
-							<View layout="horizontal" id="itemHeader">
-								<View id="itemHeaderInfo" layout="vertical">
-									<Label id="itemTitle" bindId="itemTitle" class="marginLeft colorBlack"/>
-									<Label id="itemDesc" bindId="itemDesc" class="marginLeft colorBlack" text="Mana mana song"/>
-									<View layout="horizontal" class="marginLeft">
-										<Label id="itemTagIcon" bindId="itemTag" class="colorBlack bataneoFont" text="f"/>
-										<Label id="itemTag" bindId="itemTagIcon" class="colorBlack" text="humor"/>
-									</View>
-								</View>
-								<View id="itemImageContainer">
-									<ImageView bindId="imagen" class="itemImage" image="http://www.jugarijugar.com/338-1069-thickbox/muneco-de-tela-mike-furnis.jpg"/>
-								</View>
-							</View>
-							<View id="itemContent">
-								<ImageView bindId="imagenContent" id="imageContent" image="http://vignette1.wikia.nocookie.net/muppet/images/7/74/BeakerHands.jpg/revision/latest?cb=20120626193657"/>
-							</View>
-							<View id="itemOptions" layout="horizontal">
-								<View id="temp" layout="horizontal">
-									<View  id="likes"><Label  class="left colorBlack marginLeft" text="B 34.7K"/></View>
-									<View  id="share"><Label class="right colorBlack" text="Compartir"/></View>
-								</View>
-							</View>
-						</ItemTemplate>
-					</Templates>
-					<ListSection>
-						<ListItem searchableText="prueba1" itemTitle:text="prueba1"/>
-						<ListItem searchableText="prueba2" itemTitle:text="prueba2"/>
-						<ListItem searchableText="prueba2" itemTitle:text="prueba3"/>
-						<ListItem searchableText="prueba2" itemTitle:text="prueba4"/>
-					</ListSection>
-				</ListView>
+				<Require id="messageTemplate" src="main/content/messageTemplate" type="view" />
 			</View>
 			<View id="content2">
 				<Label text="esta es la otra"></Label>

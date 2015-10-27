@@ -24,3 +24,34 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 */
+".borde" : {
+	borderColor : '#F00',
+}
+
+"Label": {
+	color: "#FFF",
+}
+
+".bataneoFont" : {
+	font : {
+		fontFamily : "bataneo",
+	}
+}
+
+".marginLeft" : {
+	left: 10
+}
+
+".left" : {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	left: 0,
+}
+
+".right" : {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	right: 0,
+}
+
+".colorBlack" : {
+	color: "#000",
+}

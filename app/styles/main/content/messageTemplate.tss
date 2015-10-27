@@ -1,0 +1,74 @@
+"#itemHeader" : {
+	backgroundColor: '#FFF',
+}
+
+"#itemHeaderInfo" : {
+	top : 0,
+	left : 0,
+	width : '70%',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	height: 75,
+}
+
+"#itemTitle" : {
+	font : {
+		fontSize: 25,
+		fontWeight: "bold"
+	}
+}
+
+"#itemDesc" : {
+	top : 0,
+}
+
+"#likes" : {
+	width: '50%',
+}
+"#share" : {
+	width: '50%',
+}
+
+"#itemContent" : {
+}
+
+"#imageContent" : {
+	width: Titanium.UI.FILL,
+}
+
+"#temp" : {
+	width:'90%',
+	left: '5%',
+	center:{
+		x: '50%',
+		y: '50%',
+	}
+}
+
+"#itemOptions" : {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	backgroundColor: '#FFF',
+}
+
+"#itemImageContainer" : {
+	left: 0,
+	width : '30%',
+	height: 75,
+}
+
+".itemImage" : {
+	width: 35,
+	height: 35,
+}
+
+
+"#itemTemplateListView" : {
+	borderRadius: 15,
+}
+"#itemTagIcon" : {
+	left: 0,
+}
+
+"#itemTag" : {
+	top : 0,
+	left: 0,
+}
