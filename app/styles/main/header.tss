@@ -55,3 +55,14 @@
 		fontSize: 40,
 	}
 }
+
+"#appName":{
+	text:"BATANEO"
+}
+
+/*".bataneoFont" : {
+	color:"red",
+	font : {
+		fontFamily : "bataneo",
+	}
+}*/

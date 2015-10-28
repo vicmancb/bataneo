@@ -5,15 +5,15 @@
             <ImageView class="" image="https://i1.wp.com/i.vimeocdn.com/portrait/default-yellow_300x300.png?ssl=1"/>
          </View>
          <View id="appnameContainer" width="50%">
-            <Label id="appName" class="bataneoFont" text="BATANEO"/>
+            <Label id="appName" class="hoboFont"/>
          </View>
          <View id="headerOptions" class="right" layout="horizontal">
-            <Label  class=" labelHeader labelOptionsHeader borde right" text="a"/>
-            <Label  class=" labelHeader labelOptionsHeader borde right" text="b"/>
+            <Label  class=" labelHeader labelOptionsHeader borde right bataneoFont">a</Label>
+            <Label  class=" labelHeader labelOptionsHeader borde right bataneoFont">b</Label>
          </View>
       </View>
       <View id="dotsView">
-         <Label id="dots" class=" labelHeader" text="......"/>
+         <Label id="dots" class=" labelHeader"/>
       </View>
    </View>
 </Alloy>
