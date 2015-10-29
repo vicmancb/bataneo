@@ -27,12 +27,7 @@
                </View>
             </ItemTemplate>
          </Templates>
-         <ListSection>
-            <ListItem searchableText="prueba1" itemTitle:text="prueba1"/>
-            <ListItem searchableText="prueba2" itemTitle:text="prueba2"/>
-            <ListItem searchableText="prueba2" itemTitle:text="prueba3"/>
-            <ListItem searchableText="prueba2" itemTitle:text="prueba4"/>
-         </ListSection>
+         <ListSection id="section"></ListSection>
       </ListView>
    </View>
 </Alloy>

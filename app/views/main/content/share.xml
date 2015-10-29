@@ -1,0 +1,30 @@
+<Alloy>
+	<View id="ventana" class="container">
+		<View id="viewCompartir">
+			<View id="viewBarraTitulo">
+				<Label id="LabelTitulo"/>
+				<Label id="LabelIconoCerrar"/>
+			</View>
+			<View id="ViewCuerpo">
+				<ListView id="listViewRedes" defaultItemTemplate="template">
+	        <Templates>
+						<ItemTemplate name="template" id="itemTemplateListView">
+	              <Label bindId="icono" id="labelIcono"/>
+	              <Label bindId="red" id="labelRed"/>
+	          </ItemTemplate>
+					</Templates>
+					<ListSection name="redes">
+	            <ListItem icono:text="p" red:text="Facebook"/>
+	            <ListItem icono:text="q" red:text="Twitter"/>
+	            <ListItem icono:text="r" red:text="Instagram"/>
+	            <ListItem icono:text="s" red:text="Youtube"/>
+	            <ListItem icono:text="w" red:text="Pinterest"/>
+	            <ListItem icono:text="D" red:text="Google+"/>
+	            <ListItem icono:text="I" red:text="LinkeIn"/>
+	            <ListItem icono:text="L" red:text="Robot"/>
+	        </ListSection>
+				</ListView>
+			</View>
+		</View>
+	</View>
+</Alloy>

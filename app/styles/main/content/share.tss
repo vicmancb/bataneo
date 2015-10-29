@@ -1,0 +1,90 @@
+".container" : {
+  height:Ti.UI.FILL,
+  width:Ti.UI.FILL,
+  zIndex:20,
+  backgroundColor:"transparent",
+  visible:false,
+  touchEnabled:true
+}
+
+"#viewCompartir" : {
+  height:"300",
+  width:"200",
+  backgroundColor:"#00B1F2",
+}
+
+"#viewBarraTitulo":{
+  top:0,
+  height:"40",
+}
+
+"#LabelTitulo":{
+	center:{x:"50%",y:"50%"},
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	text:"Compartir",
+	color:"#fff",
+	font:{
+		fontSize:"20",
+	}
+}
+
+"#LabelIconoCerrar":{
+	top:0,
+  right:0,
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	text:"P",
+	color:"#fff",
+	font:{
+		fontSize:"20",
+    fontFamily:"psl"
+	}
+}
+
+/*Estilos para el cuerpo*/
+"#ViewCuerpo":{
+  top:"40",
+  height:Ti.UI.FILL,
+  width:Ti.UI.FILL,
+}
+
+/*Estilos para el lietView*/
+"#listViewRedes":{
+  top:0,
+  height:Ti.UI.FILL,
+  width:Ti.UI.FILL,
+  backgroundColor:"#43CEFF"
+}
+
+/*itemtemplate*/
+"#itemTemplateListView":{
+  top:"1",
+  height:"40",
+  layout:"horizontal",
+  backgroundColor:"#43CEFF"
+}
+
+"#labelIcono":{
+  left:"5",
+  center:{y:"50%"},
+  color:"#fff",
+  font:{
+		fontSize:"30",
+    fontFamily:"psl"
+	}
+}
+
+"#labelRed":{
+  left:"5",
+  center:{y:"50%"},
+  color:"#fff",
+  font:{
+    fontSize:"20",
+  }
+}
+
+"#labelRed[platform=ios]":{
+  left:"40",
+}
+/**/

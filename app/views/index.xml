@@ -18,5 +18,8 @@
 				<Label text="y la otra"></Label>
 			</View>
 		</ScrollableView>
+		<View id="viewCuerpo">
+			<Require id="shareTemp" src="main/content/share" type="view"/>
+		</View>
 	</Window>
 </Alloy>
