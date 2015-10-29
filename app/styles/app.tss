@@ -33,8 +33,16 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 ".bataneoFont" : {
+	/*color:"red",*/
 	font : {
 		fontFamily : "bataneo",
+	}
+}
+
+".hoboFont" : {
+	/*color:"red",*/
+	font : {
+		fontFamily : "Hobo Std Medium",
 	}
 }
 
