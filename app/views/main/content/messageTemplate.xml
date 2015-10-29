@@ -6,7 +6,7 @@
                <View layout="horizontal" id="itemHeader">
                   <View id="itemHeaderInfo" layout="vertical">
                      <Label id="itemTitle" bindId="itemTitle" class="marginLeft colorBlack"/>
-                     <Label id="itemDesc" bindId="itemDesc" class="marginLeft colorBlack" text="Mana mana song"/>
+                     <Label id="itemDesc" bindId="itemDesc" class="marginLeft colorBlack"/>
                      <View layout="horizontal" class="marginLeft">
                         <Label id="itemTagIcon" bindId="itemTag" class="colorBlack bataneoFont" text="f"/>
                         <Label id="itemTag" bindId="itemTagIcon" class="colorBlack" text="humor"/>

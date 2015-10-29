@@ -7,7 +7,7 @@ $.headerReq.appNameView.addEventListener('click', function(){
 var data = [
     {
         titulo: "Muppet face MAN",
-        cancion: "Mana mana song",
+        cancion: "Mana mana victor",
         categoria: "humor",
         avatar: "http://s70427.gridserver.com/bataneo/assets/images/icon_user.jpg",
         articulo: "http://s70427.gridserver.com/bataneo/assets/images/img_bataneo.jpg",
@@ -55,20 +55,6 @@ var data = [
     }
 ];
 
-var data2 = [
-   {
-      searchableText: "pruebaa 1",
-      itemTitle : {
-         text : "pruebaaa1"
-      }
-   },
-   {
-      searchableText: "pruebaa 2",
-      itemTitle : {
-         text : "pruebaaa2"
-      }
-   }
-];
 
 var data3 = [];
 _.each(data, function(item){
@@ -76,6 +62,18 @@ _.each(data, function(item){
       searchableText: item.titulo,
       itemTitle : {
          text : item.titulo
+      },
+      itemDesc : {
+         text : item.cancion
+      },
+      itemTagIcon : {
+         text : item.categoria
+      },
+      imagen : {
+         image : item.avatar
+      },
+      imagenContent : {
+         image : item.articulo
       }
    };
 
