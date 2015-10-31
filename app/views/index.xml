@@ -1,25 +1,27 @@
 <Alloy>
 	<Window class="container" layout="vertical">
 		<Require id="headerReq" src="main/header" type="view"/>
-		<ScrollableView>
-			<View id="content">
-				<Require id="messageTemplate" src="main/content/messageTemplate" type="view" />
-			</View>
-			<View id="content2">
-				<Label text="esta es la otra"></Label>
-			</View>
-			<View id="content2">
-				<Label text="y la otra"></Label>
-			</View>
-			<View id="content2">
-				<Label text="y la otra"></Label>
-			</View>
-			<View id="content2">
-				<Label text="y la otra"></Label>
-			</View>
-		</ScrollableView>
 		<View id="viewCuerpo">
 			<Require id="shareTemp" src="main/content/share" type="view"/>
+		
+			<ScrollableView>
+				<View id="content">
+					<Require id="messageTemplate" src="main/content/messageTemplate" type="view" />
+				</View>
+				<View id="content2">
+					<Label text="esta es la otra"></Label>
+				</View>
+				<View id="content2">
+					<Label text="y la otra"></Label>
+				</View>
+				<View id="content2">
+					<Label text="y la otra"></Label>
+				</View>
+				<View id="content2">
+					<Label text="y la otra"></Label>
+				</View>
+			</ScrollableView>
 		</View>
+
 	</Window>
 </Alloy>

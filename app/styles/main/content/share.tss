@@ -10,7 +10,7 @@
 "#viewCompartir" : {
   height:"300",
   width:"200",
-  backgroundColor:"#00B1F2",
+  backgroundColor:"#444",
 }
 
 "#viewBarraTitulo":{
@@ -54,7 +54,7 @@
   top:0,
   height:Ti.UI.FILL,
   width:Ti.UI.FILL,
-  backgroundColor:"#43CEFF"
+  backgroundColor:"#333"
 }
 
 /*itemtemplate*/
@@ -62,7 +62,7 @@
   top:"1",
   height:"40",
   layout:"horizontal",
-  backgroundColor:"#43CEFF"
+  backgroundColor:"#555"
 }
 
 "#labelIcono":{

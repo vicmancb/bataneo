@@ -8,8 +8,8 @@
             <Label id="appName" class="hoboFont"/>
          </View>
          <View id="headerOptions" class="right" layout="horizontal">
-            <Label  class=" labelHeader labelOptionsHeader borde right bataneoFont">a</Label>
-            <Label  class=" labelHeader labelOptionsHeader borde right bataneoFont">b</Label>
+            <Label  class=" labelHeader labelOptionsHeader right bataneoFont">a</Label>
+            <Label  class=" labelHeader labelOptionsHeader right bataneoFont">b</Label>
          </View>
       </View>
       <View id="dotsView">

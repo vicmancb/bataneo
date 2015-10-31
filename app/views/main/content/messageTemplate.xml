@@ -9,7 +9,7 @@
                      <Label id="itemDesc" bindId="itemDesc" class="marginLeft colorBlack"/>
                      <View layout="horizontal" class="marginLeft">
                         <Label id="itemTagIcon" bindId="itemTag" class="colorBlack bataneoFont" text="f"/>
-                        <Label id="itemTag" bindId="itemTagIcon" class="colorBlack" text="humor"/>
+                        <Label id="itemTag" bindId="itemTagIcon" class="colorBlack"/>
                      </View>
                   </View>
                   <View id="itemImageContainer">
@@ -22,7 +22,7 @@
                <View id="itemOptions" layout="horizontal">
                   <View id="temp" layout="horizontal">
                      <View  id="likes"><Label  class="left colorBlack marginLeft" text="B 34.7K"/></View>
-                     <View  id="share"><Label class="right colorBlack" text="Compartir"/></View>
+                     <View  id="share"><Label bindId="shareButton" class="right colorBlack" text="Compartir"/></View>
                   </View>
                </View>
             </ItemTemplate>

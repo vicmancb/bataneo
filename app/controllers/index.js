@@ -1,8 +1,18 @@
 
-
-$.headerReq.appNameView.addEventListener('click', function(){
-   alert('hola');
+$.messageTemplate.listItems.addEventListener('itemclick', function(e){
+   if(e.bindId === "shareButton"){
+      $.shareTemp.ventana.show();
+   }
 });
+var hideShare = function(){
+   $.shareTemp.ventana.hide();
+};
+
+$.shareTemp.LabelIconoCerrar.addEventListener('click', hideShare);
+
+$.shareTemp.ventana.addEventListener('click', hideShare);
+
+
 
 var data = [
     {
@@ -56,7 +66,7 @@ var data = [
 ];
 
 
-var data3 = [];
+var dataToView = [];
 _.each(data, function(item){
    var process = {
       searchableText: item.titulo,
@@ -77,12 +87,9 @@ _.each(data, function(item){
       }
    };
 
-   data3.push(process);
+   dataToView.push(process);
 });
 
-$.messageTemplate.section.setItems(data3);
-
-
-
+$.messageTemplate.section.setItems(dataToView);
 
 $.index.open();
